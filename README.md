@@ -195,25 +195,13 @@ Below is a summary of each section and its purpose:
    * Print final KL divergence
    * 3D scatter: t-SNE1 vs. t-SNE2 vs. t-SNE3, colored by stage
 
-8. **Spectral Embedding (Laplacian Eigenmaps)**
-
-   * Compute a 3D Graph‐Laplacian embedding (n\_neighbors = 12)
-   * 3D scatter: SE1 vs. SE2 vs. SE3, colored by stage
-
-9. **Diffusion Map (Scanpy)**
+8. **Diffusion Map (Scanpy)**
 
    * Run PCA to 50 dims (or fewer if limited)
    * Build a Gaussian‐kernel k-NN graph (n\_neighbors = 13, use PCA representation)
    * Compute diffusion map (first 4 diffusion components)
    * Print the first five diffusion eigenvalues
    * 3D scatter: DC2 vs. DC3 vs. DC4, colored by stage
-
-10. **Leiden Clustering & Adjusted Rand Index (ARI)**
-
-    * Apply Leiden clustering (resolution = 0.5) on the k-NN graph
-    * Compare Leiden labels vs. true `Stage` labels via ARI
-    * Print ARI score and number of clusters found
-
 ---
 
 ## Results & Visualizations
