@@ -12,10 +12,8 @@ This repository contains a Jupyter Notebook that performs end-to-end preprocessi
 4. [Installation](#installation)  
 5. [Usage](#usage)  
 6. [Notebook Structure](#notebook-structure)  
-7. [Results & Visualizations](#results--visualizations)  
-8. [Next Steps & Extensions](#next-steps--extensions)  
-9. [Author](#author)  
-10. [License](#license)  
+7. [Results & Visualizations](#results--visualizations)   
+8. [License](#license)  
 
 ---
 
@@ -248,11 +246,11 @@ Below is a summary of each section and its purpose:
 * **3D Embedding Plots**
 
   * **PCA**: Early separation of stages along PC1/PC2/PC3 demonstrating monotonic progression from 1C → 64C.
-    ![PCA 3D Scatter](outputs/images/pca_3d_scatter.png)
+    ![PCA 3D Scatter](pca_3d_scatter.png)
   * **t-SNE**: Nonlinear clusters corresponding to distinct "branch points" at 4C and 8C transitions.
-    ![t-SNE 3D Scatter](outputs/images/tSNE_3d_scatter.png)
+    ![t-SNE 3D Scatter](tSNE_3d_scatter.png)
   * **Diffusion Map**: Smooth "pseudotime" ordering from 1C → 64C visible along DC2.
-    ![Diffusion Map 3D Scatter](outputs/images/DM_3d_scatter.png)
+    ![Diffusion Map 3D Scatter](DM_3d_scatter.png)
 ---
 
 ## License
